@@ -1,0 +1,12 @@
+- spring.jackson
+    spring.jackson.date-format指定日期格式，比如yyyy-MM-dd HH:mm:ss，或者具体的格式化类的全限定名
+    spring.jackson.deserialization是否开启Jackson的反序列化
+    spring.jackson.generator是否开启json的generators.
+    spring.jackson.joda-date-time-format指定Joda date/time的格式，比如yyyy-MM-ddHH:mm:ss). 如果没有配置的话，dateformat会作为backup
+    spring.jackson.locale指定json使用的Locale.
+    spring.jackson.mapper是否开启Jackson通用的特性.
+    spring.jackson.parser是否开启jackson的parser特性.
+    spring.jackson.property-naming-strategy指定PropertyNamingStrategy(CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES)或者指定PropertyNamingStrategy子类的全限定类名.
+    spring.jackson.serialization是否开启jackson的序列化.
+    spring.jackson.serialization-inclusion指定序列化时属性的inclusion方式，具体查看JsonInclude.Include枚举.
+    spring.jackson.time-zone指定日期格式化时区，比如America/Los_Angeles或者GMT+10
